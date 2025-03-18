@@ -5,14 +5,15 @@
 		{
 			"name": "IPV6",
 			"type": 0,
-			"url": "",
+			"url": "./live/ipv4.txt",
 			"playerType": 1,
-			"epg": "",
-			"logo": ""
+			"epg": "https://live.fanmingming.com/e.xml",
+			"logo": "https://live.fanmingming.com/tv/{name}.png"
 		},
 	],
 
 	"sites": [
+	// CMS苹果站源接口，大部分都有广告
 {"key": "Bili2","name": "宝宝趣学","type": 3,"api": "csp_Bili2","searchable": 0,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/wxrjck/etqm/refs/heads/main/bb.json"}
 	]
 }
